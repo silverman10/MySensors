@@ -269,7 +269,7 @@ function gcc_cpu_flags {
         flags="-march=armv8-a+crc -mtune=cortex-a53 -mfpu=neon-fp-armv8 -mfloat-abi=hard"
         ;;
     BCM2711)
-        flags="-march=armv8-a+crc -mtune=cortex-a72 -mfpu=neon-fp-armv8 -mfloat-abi=hard"
+        flags="-march=armv8-a+crc -mtune=cortex-a72"
         ;;
     AM33XX)
         flags="-march=armv7-a -mtune=cortex-a8 -mfpu=neon -mfloat-abi=hard"
